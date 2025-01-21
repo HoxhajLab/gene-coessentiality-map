@@ -33,3 +33,98 @@ For visualization, edges between the GOI and cluster genes have the widths and l
 |   MECR    |*Homo Sapiens* | Cluster 5   | 6 | Protein Lipoylation | https://version-12-0.string-db.org/cgi/network?networkId=bUQHVhMphBwY |
 |   MECR    |*Homo Sapiens* | Cluster 6   | 5 | Respiratory Chain Complex IV Assembly | https://version-12-0.string-db.org/cgi/network?networkId=bqCQaoWlgEVf |
 
+# Installation:
+
+1) Clone the github: 
+```
+git clone https://github.com/HoxhajLab/gene-coessentiality-map.git
+```
+2) Download the  zip
+- Navigate to: https://github.com/HoxhajLab/gene-coessentiality-map/tree/main and download the code as a zip file. 
+- Unpack the zip into the local directory of your choice.
+
+Installation should take no longer than 2-3 minutes on standard hardware.
+
+# Demo:
+Data and code necessary to recreate the experimental results is included in the repository. In order to reproduce the experimental results, simply run the jupyter notebook `visualization.ipynb`. Expected ouput are included in the manuscript, the supplemental text, as well as `fig` folder in the current repository.
+
+Reproducing the results should take no longer than 5 minutes using standard hardware.
+
+# System Requirements:
+-----
+* Python 3.9.18 
+* Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-glibc2.17
+
+### Essential packages:
+|Package | Version |
+|--------|---------|
+|matplotlib  |        3.9.4|
+pandas         |     1.5.3
+session_info    |    1.0.0
+
+### Package dependencies:
+|Package | Version |
+|--------|---------|
+PIL              |   10.0.1
+asttokens        |   NA
+backcall         |   0.2.0
+bottleneck       |   1.3.5
+cffi             |   1.15.1
+cloudpickle      |   2.2.1
+comm             |   0.1.4
+cycler           |   0.10.0
+cython_runtime   |   NA
+dateutil         |   2.8.2
+debugpy          |   1.6.7
+decorator        |   5.1.1
+defusedxml       |   0.7.1
+entrypoints      |   0.4
+exceptiongroup   |   1.0.4
+executing        |   0.8.3
+importlib_resources| NA
+ipykernel          | 6.25.0
+ipython_genutils   | 0.2.0
+ipywidgets         | 8.1.1
+jedi               | 0.18.1
+kiwisolver         | 1.4.4
+matplotlib_inline  | 0.1.6
+mpl_toolkits       | NA
+networkx           | 2.8.7
+numexpr            | 2.8.7
+numpy              | 1.23.5
+packaging          | 23.1
+parso              | 0.8.3
+pexpect            | 4.8.0
+pickleshare        | 0.7.5
+pkg_resources      | NA
+platformdirs       | 3.10.0
+prompt_toolkit     | 3.0.36
+psutil             | 5.9.0
+ptyprocess         | 0.7.0
+pure_eval          | 0.2.2
+pyarrow            | 11.0.0
+pydev_ipython      | NA
+pydevconsole       | NA
+pydevd             | 2.9.5
+pydevd_file_utils  | NA
+pydevd_plugins     | NA
+pydevd_tracing     | NA
+pygments           | 2.15.1
+pyparsing          | 3.0.9
+pytz               | 2023.3.post1
+six                | 1.16.0
+stack_data         | 0.2.0
+tornado            | 6.3.3
+traitlets          | 5.7.1
+typing_extensions  | NA
+vscode             | NA
+wcwidth            | 0.2.5
+zipp               | NA
+zmq                | 23.2.0
+zoneinfo           | NA
+IPython             |8.15.0
+jupyter_client      |7.4.9
+jupyter_core        |5.3.0
+notebook            |6.5.4
+
+

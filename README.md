@@ -51,7 +51,6 @@ Data and code necessary to recreate the experimental results is included in the 
 Reproducing the results should take no longer than 5 minutes using standard hardware.
 
 # System Requirements:
------
 * Python 3.9.18 
 * Linux-3.10.0-1160.88.1.el7.x86_64-x86_64-with-glibc2.17
 
